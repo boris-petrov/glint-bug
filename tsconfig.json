@@ -10,5 +10,20 @@
       "glint-bug/*": ["app/*"],
       "*": ["types/*"]
     }
+  },
+  "glint": {
+    "environment": {
+      "ember-loose": {
+        "additionalSpecialForms": {
+          "globals": {
+            "and": "&&",
+            "or": "||",
+            "not": "!",
+            "eq": "===",
+            "not-eq": "!=="
+          }
+        }
+      }
+    }
   }
 }
